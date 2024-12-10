@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendace form</title>
+    <link rel="stylesheet" href="./styles/employeeDashboardstyle.css">
+    <link rel="stylesheet" href="./styles/homepagestyles.css">
+    <link rel="stylesheet" href="./styles/attendanceformstyle.css">
+</head>
+<body>
+    <div id="headerHome">
+        <div id="headerLogo">
+            <img src=".//images/image.png" alt="brimma logo" srcset="">
+        </div>
+    </div>
+    <aside>
+        <div class="profile">
+           <img src="./images/profile.png" > 
+        </div>
+        <a href='./employeeDashboard.html'>Dashobard</a>
+        <a href='./attedanceForm.html'>Attendance Form</a>
+        <a href='./leaveApplication.html'>Leave Application</a>
+        <a href='./homePage.Html'>Log out</a>
+    </aside>
+    <h1>Employee Attendance</h1>
+    <form id="attendanceForm">
+        <label>Date: 
+            <input type="text" id="attendanceDate" disabled>
+        </label>
+        <button type="submit">Mark Attendance</button>
+    </form>
+    <hr>
+    <h2>Approved Attendance</h2>
+    <div id="approvedAttendance"></div>
+    <script src="./script/attendanceFromscript.js">
+    </script>
+</body>
+</html>

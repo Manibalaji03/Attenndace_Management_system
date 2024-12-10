@@ -1,0 +1,28 @@
+#attendanceForm{
+   
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 600px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.251);
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 99, 0.208);
+    border: none;
+}
+
+button{
+    padding: 1rem;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    background-color: rgb(4, 123, 72);
+}

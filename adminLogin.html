@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/Loginstyle.css">
+    <link rel="stylesheet" href="./styles/homepagestyles.css">
+    <title>Admin Login</title>
+    <script defer src="./script/adminLogin.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="headerHome">
+        <div id="headerLogo">
+            <img src="./images/image.png" alt="Brimma Logo">
+        </div>
+        <div id="logintype">
+            <a href="homePage.html" target="_blank" rel="noopener noreferrer">Back to Home</a>          
+        </div>
+    </div>
+
+    <!-- Login Form Section -->
+    <div class="admincontainer">
+        <form class="form" id="adminLoginForm">
+            <h3 style="text-align: center;">Admin Login</h3>
+
+            <!-- Username Input -->
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="adminUsername" class="inputbox" placeholder="Enter the username here . . . . ." required>
+
+            <!-- Password Input -->
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="adminPassword" class="inputbox" placeholder="Enter the password here . . . . ." required>
+
+            <!-- Submit Button -->
+            <button type="submit" id="loginButton">Log in</button>
+        </form>
+    </div>
+</body>
+</html>

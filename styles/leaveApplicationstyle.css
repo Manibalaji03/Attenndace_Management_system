@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#leaveApplication{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.199);
+}
+
+#leaveformcontainer{
+    display: flex;
+    margin: 2rem 0;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color: white;
+    border: none;
+    background-color: rgb(0, 90, 60);
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+}

@@ -1,0 +1,48 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+
+# Dependency lock files (Optional: Uncomment if needed)
+# package-lock.json
+# yarn.lock
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# VS Code specific
+.vscode/
+*.code-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Coverage and test files
+coverage/
+*.lcov
+*.spec.js
+*.test.js
+
+# NPM cache
+.npm/
